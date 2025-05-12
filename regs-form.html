@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>REGISTATION FORM</title>
+    <link rel="stylesheet" href="regs-form.css" />
+  </head>
+  <body>
+    <div class="main1">
+      <form>
+        <div class="head">
+          <h2>registation form</h2>
+        </div>
+
+        <div class="bg">
+          <div class="name">
+            <label for="">Enter full name</label>
+            <input type="text" required name=""  id="n1" />
+          </div>
+
+          <div class="contact">
+            <label for="">Enter contact no.</label>
+            <input type="number" required   id="c1" />
+          </div>
+
+          <div class="bdate">
+            <label for="">Enter born date</label>
+            <input type="date" required   id="bd1" />
+          </div>
+
+          <div class="mail">
+            <label for="">Enter gmail</label>
+            <input type="text"  required name=""  id="m1" />
+          </div>
+
+          <div class="add">
+            <label for="">Enter your address</label>
+            <textarea   required id="a1"></textarea>
+          </div>
+
+          <div class="gender">
+            <label for="">male</label>
+            <input type="radio" name="gender" />
+            <label for=""> female</label>
+            <input type="radio" name="gender" />
+          </div>
+
+          <div class="sub">
+            <input type="submit" name="" id="" />
+          </div>
+        </div>
+      </form>
+    </div>
+    <!-- <div class="al" id="aaa">
+      <div class="alert">
+        <h3>PLEASE FILL ALL INFORMATION</h3>
+      </div>
+    </div> -->
+
+    <!-- <script>
+      function not() {
+        let name = document.getElementById("n1").value;
+        let con = document.getElementById("c1").value;
+        let bda = document.getElementById("bd1").value;
+        let g = document.getElementById("m1").value;
+        let a = document.getElementById("a1").value;
+
+        let al = document.getElementById("aaa");
+        if (name == "" && con == "" && bda == "" && g == "" && a == "") {
+          al.style.display = "block";
+        }
+      }
+    </script> -->
+  </body>
+</html>
